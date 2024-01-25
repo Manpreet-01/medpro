@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-and-toggler-container">
+                <a href="#" class="navbar-brand">Medpro</a>
+
+                <div class="nav-toggler">
+                    <button class="nav-menu-toggle-btn">
+                        <img src="./images/toogle-menu.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <input type="search" placeholder="Search" class="search">
+                <button type="submit" class="search-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <div class="nav-right-btns">
+                <button class="btn nav outline">Sign in</button>
+                <button class="btn nav outline">Add Listing</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="left-sidebar">
+            <div class="sidebar-header">
+                <h2>Filters</h2>
+                <div>
+                    <button class="reset-filter-btn">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        Reset Filter
+                    </button>
+                </div>
+            </div>
+            <div class="sidebar-items">
+                <div class="sidebar-item item1">
+                    <h2 class="sidebar-item-name">Specialty</h2>
+                    <select>
+                        <option selected>Select a Specialty</option>
+                        <option>One</option>
+                        <option>Two</option>
+                        <option>Three</option>
+                    </select>
+                </div>
+                <div class="sidebar-item item2">
+                    <h2 class="sidebar-item-name">Name</h2>
+                    <input type="text" class="sidebar-item-input">
+                </div>
+                <div class="sidebar-item item3">
+                    <h2 class="sidebar-item-name">Company</h2>
+                    <input type="text" class="sidebar-item-input">
+                </div>
+                <div class="sidebar-item item4">
+                    <h2 class="sidebar-item-name">Department</h2>
+                    <input type="text" class="sidebar-item-input">
+                </div>
+                <div class="sidebar-item item5">
+                    <h2 class="sidebar-item-name">Location</h2>
+                    <input type="text" class="sidebar-item-input">
+                </div>
+            </div>
+        </div>
+        <div class="right-side-content">
+            <div class="header2">
+                <h3 class="list-status">Showing 1-4 of 8</h3>
+                <select name="" id="" class="sort-order">
+                    <option value="">Sort By</option>
+                    <option value="">Name</option>
+                    <option value="">Date</option>
+                    <option value="">Country</option>
+                </select>
+            </div>
+
+            <section class="doc-list">
+                <article class="doc item1">
+                    <div class="doc-img-div">
+                        <img src="./images/unnamed-1-2.jpg" alt="" class="doc-img">
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-content-l">
+                            <h2 class="name">Dr. Sara Peterson</h2>
+                            <p class="speciality">Urology</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span>Medical and Fitness</span>
+                            <p class="doc-map">
+                                <i class="fa fa-map-marker"></i>
+                                Dallas, TX
+                            </p>
+                        </div>
+                        <div class="doc-content-r">
+                            <p>
+                                <i class="fa fa-check-circle"></i>
+                                Taking New Patients
+                            </p>
+                            <p>
+                                <i class="fa fa-video-camera"></i>
+                                Video Consultation
+                            </p>
+                            <p class="available-date">
+                                <i class="fa fa-calendar"> </i>
+                                Available Today
+                            </p>
+                            <button class="book-appointment">Book Appoinment</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="doc item2">
+                    <div class="doc-img-div">
+                        <img src="./images/unnamed-1-2.jpg" alt="" class="doc-img">
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-content-l">
+                            <h2 class="name">Dr. Sara Peterson</h2>
+                            <p class="speciality">Urology</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span>Medical and Fitness</span>
+                            <p class="doc-map">
+                                <i class="fa fa-map-marker"></i>
+                                Dallas, TX
+                            </p>
+                        </div>
+                        <div class="doc-content-r">
+                            <p>
+                                <i class="fa fa-check-circle"></i>
+                                Taking New Patients
+                            </p>
+                            <p>
+                                <i class="fa fa-video-camera"></i>
+                                Video Consultation
+                            </p>
+                            <p class="available-date">
+                                <i class="fa fa-calendar"> </i>
+                                Available Today
+                            </p>
+                            <button class="book-appointment">Book Appoinment</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="doc item3">
+                    <div class="doc-img-div">
+                        <img src="./images/unnamed-1-2.jpg" alt="" class="doc-img">
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-content-l">
+                            <h2 class="name">Dr. Sara Peterson</h2>
+                            <p class="speciality">Urology</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span>Medical and Fitness</span>
+                            <p class="doc-map">
+                                <i class="fa fa-map-marker"></i>
+                                Dallas, TX
+                            </p>
+                        </div>
+                        <div class="doc-content-r">
+                            <p>
+                                <i class="fa fa-check-circle"></i>
+                                Taking New Patients
+                            </p>
+                            <p>
+                                <i class="fa fa-video-camera"></i>
+                                Video Consultation
+                            </p>
+                            <p class="available-date">
+                                <i class="fa fa-calendar"> </i>
+                                Available Today
+                            </p>
+                            <button class="book-appointment">Book Appoinment</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="doc item4">
+                    <div class="doc-img-div">
+                        <img src="./images/unnamed-1-2.jpg" alt="" class="doc-img">
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-content-l">
+                            <h2 class="name">Dr. Sara Peterson</h2>
+                            <p class="speciality">Urology</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span>Medical and Fitness</span>
+                            <p class="doc-map">
+                                <i class="fa fa-map-marker"></i>
+                                Dallas, TX
+                            </p>
+                        </div>
+                        <div class="doc-content-r">
+                            <p>
+                                <i class="fa fa-check-circle"></i>
+                                Taking New Patients
+                            </p>
+                            <p>
+                                <i class="fa fa-video-camera"></i>
+                                Video Consultation
+                            </p>
+                            <p class="available-date">
+                                <i class="fa fa-calendar"> </i>
+                                Available Today
+                            </p>
+                            <button class="book-appointment">Book Appoinment</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
